@@ -12,7 +12,7 @@
     <meta name="keywords" content="friendbook">
     <meta name="author" content="friendbook">
     <link rel="icon" href="../assets/images/favicon.png" type="image/x-icon" />
-    <title>سرآمد</title>
+    <title>سرآمد - درباره ما</title>
 
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
@@ -22,6 +22,8 @@
     <!-- Theme css -->
     <link id="change-link" rel="stylesheet" type="text/css" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+
 </head>
 
 <body class="bg-white rtl">
@@ -35,7 +37,6 @@
     </div>
     <!-- loader end -->
 
-
     <!-- header start -->
     <header class="no-sticky bg-transparent">
         <div class="container-fluid custom-padding">
@@ -45,51 +46,6 @@
                         <a href="home.html">
                             <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid blur-up lazyload">
                         </a>
-                    </div>
-                    <div class="search-box">
-                        <i data-feather="search" class="icon iw-16 icon-light"></i>
-                        <input type="text" class="form-control search-type" placeholder="جستجو کنید...">
-                        <div class="icon-close">
-                            <i data-feather="x" class="iw-16 icon-light"></i>
-                        </div>
-                        <div class="search-suggestion">
-                            <span class="recent">جستجو های اخیر</span>
-                            <ul class="friend-list">
-                                <li>
-                                    <div class="media">
-                                        <img src="../assets/images/user-sm/9.jpg" alt="user">
-                                        <div class="media-body">
-                                            <div>
-                                                <h5 class="mt-0">Paige Turner</h5>
-                                                <h6>1 دوست متقابل</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <img src="../assets/images/user-sm/12.jpg" alt="user">
-                                        <div class="media-body">
-                                            <div>
-                                                <h5 class="mt-0">Paige Turner</h5>
-                                                <h6> 1 mutual friend</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <img src="../assets/images/user-sm/15.jpg" alt="user">
-                                        <div class="media-body">
-                                            <div>
-                                                <h5 class="mt-0">Paige Turner</h5>
-                                                <h6> 1 mutual friend</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
                 <div class="header-right">
@@ -101,31 +57,30 @@
                         <div class="navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item d-block d-lg-none back-btn">
-                                    <a class="nav-link" href="javascript:void(0)">back</a>
+                                    <a class="nav-link" href="javascript:void(0)">بازگشت</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a style="font-size: 12px;font-weight: bold; " class="nav-link"
+                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link"
                                         href="home.html">خانه</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a style="font-size: 12px;font-weight: bold; " class="nav-link"
+                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link" href="#">مقالات</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link" href="#">پرسش های
+                                        متداول</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link"
                                         href="about-us.html">درباره ما</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a style="font-size: 12px;font-weight: bold; " class="nav-link"
-                                        href="career.html">شغل</a>
+                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link"
+                                        href="contact-us.html">تماس با ما</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a style="font-size: 12px;font-weight: bold; " class="nav-link"
-                                        href="blog.html">وبلاگ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a style="font-size: 12px;font-weight: bold; " class="nav-link" href="faq.html">سوال
-                                        های متداول</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a style="font-size: 12px;font-weight: bold; " class="nav-link d-flex"
-                                        href="login.html"><i class="me-2 iw-20 ih-20" data-feather="log-in"></i>ورود</a>
+                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link d-flex" href="#"><i
+                                            class="me-2 iw-20 ih-20" data-feather="log-in"></i>ورود</a>
                                 </li>
                             </ul>
                         </div>
@@ -136,9 +91,8 @@
     </header>
     <!-- header end -->
 
-
     <!-- breadcrumb section start -->
-    <section class="breadcrumb-section breadcrumb-sm">
+    <section style="height: 220px;" class="breadcrumb-section">
         <img src="../assets/images/breadcrumb.jpg" class="img-fluid blur-up lazyload bg-img" alt="">
         <div class="animation-emoji">
             <ul class="circles">
@@ -176,13 +130,15 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-8 col-12 m-auto">
                         <h2 style="font-size: 30px;font-weight: bold; ">درباره ما</h2>
+                        <form>
+                            <input type="search" class="form-control" placeholder="جستجو کنید...">
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- breadcrumb section end -->
-
 
     <!-- register section start -->
     <section class="section-pt-space section-pb-space single-feature-section overflow-hidden">
@@ -636,11 +592,16 @@
                             minim veniam, enim ad minim veniam, </p>
                         <div class="footer-social">
                             <ul class="d-flex">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fas fa-rss"></i></a></li>
+                                <li style="padding-left: 20px;"><a href="#"><i class="fa fa-facebook"
+                                            aria-hidden="true"></i></a></li>
+                                <li style="padding-left: 20px;"><a href="#"><i class="fa fa-google-plus"
+                                            aria-hidden="true"></i></a></li>
+                                <li style="padding-left: 20px;"><a href="#"><i class="fa fa-twitter"
+                                            aria-hidden="true"></i></li>
+                                <li style="padding-left: 20px;"><a href="#"><i class="fa fa-instagram"
+                                            aria-hidden="true"></i></a></li>
+                                <li style="padding-left: 20px;"><a href="#"><i class="fa fa-rss"
+                                            aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -705,7 +666,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="sub-footer">
-                        <p> کلیه حقوق این وبسایت نزد مرکز پژوهش‌های مجلس شورای اسلامی محفوظ است.</p>
+                        <p style="font-size: 15px;"> کلیه حقوق این وبسایت نزد مرکز پژوهش‌های مجلس شورای اسلامی محفوظ
+                            است.</p>
                     </div>
                 </div>
             </div>
@@ -753,8 +715,5 @@
     </script>
 
 </body>
-
-
-<!-- Mirrored from themes.pixelstrap.com/friendbook/html/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 08 Jun 2021 16:20:27 GMT -->
 
 </html>
