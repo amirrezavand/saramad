@@ -38,57 +38,18 @@
 
 
     <!-- header start -->
-    <header class="no-sticky bg-transparent">
+    <header class="no-sticky bg-transparent" style="background-color: #0389c9 !important;">
         <div class="container-fluid custom-padding">
             <div class="header-section">
                 <div class="header-left">
                     <div class="brand-logo">
                         <a href="home.html">
-                            <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid blur-up lazyload">
+                            <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid blur-up lazyload"
+                                style="height: 40px;">
                         </a>
                     </div>
-                    <div class="search-box">
-                        <div class="search-suggestion">
-                            <span class="recent">جستجو های اخیر</span>
-                            <ul class="friend-list">
-                                <li>
-                                    <div class="media">
-                                        <img src="../assets/images/user-sm/9.jpg" alt="user">
-                                        <div class="media-body">
-                                            <div>
-                                                <h5 class="mt-0">Paige Turner</h5>
-                                                <h6>1 دوست متقابل</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <img src="../assets/images/user-sm/12.jpg" alt="user">
-                                        <div class="media-body">
-                                            <div>
-                                                <h5 class="mt-0">Paige Turner</h5>
-                                                <h6> 1 mutual friend</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="media">
-                                        <img src="../assets/images/user-sm/15.jpg" alt="user">
-                                        <div class="media-body">
-                                            <div>
-                                                <h5 class="mt-0">Paige Turner</h5>
-                                                <h6> 1 mutual friend</h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
                 </div>
-                <div class="header-right">
+                <div class="header-right ms-auto me-3">
                     <nav class="navbar navbar-expand-lg pe-0">
                         <div class="overlay-bg"></div>
                         <button class="navbar-toggler p-0" type="button">
@@ -96,35 +57,46 @@
                         </button>
                         <div class="navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
-                                <li class="nav-item d-block d-lg-none back-btn">
-                                    <a class="nav-link" href="javascript:void(0)">بازگشت</a>
+                                <li class="nav-item d-block d-lg-none back-btn"> <a class="nav-link "
+                                        href="javascript:void(0)"> <i aria-hidden="true" class="fa fa-angle-right"></i>
+                                        بازگشت </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link"
-                                        href="home.html">خانه</a>
+                                    <a class="nav-link" href="home.html"
+                                        style="font-size: 15px;font-weight: 500; font-weight: bold; ">خانه</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"
+                                        style="font-size: 15px;font-weight: 500; font-weight: bold; ">مقالات</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"
+                                        style="font-size: 15px;font-weight: 500; font-weight: bold; ">پرسش
+                                        های متداول</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html"
+                                        style="font-size: 15px;font-weight: 500; font-weight: bold;">درباره
+                                        ما</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link" href="#">مقالات</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link" href="#">پرسش های
-                                        متداول</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link"
-                                        href="about-us.html">درباره ما</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link"
-                                        href="contact-us.html">تماس با ما</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a style="font-size: 15px;font-weight: bold; " class="nav-link d-flex" href="#"><i
-                                            class="me-2 iw-20 ih-20" data-feather="log-in"></i>ورود</a>
+                                    <a class="nav-link" href="contact-us.html"
+                                        style="font-size: 15px;font-weight: 500; font-weight: bold; ">تماس
+                                        با ما</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
+                </div>
+                <div class="me-auto">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link d-flex" href="login.html"
+                                style="font-size: 12px;font-weight: 500;background-color: rgba(255, 255, 255, 0.26);padding: 10px 20px;border-radius: 5px;"><i
+                                    class="ms-2 iw-20 ih-20" data-feather="log-in"></i>ورود</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -132,8 +104,9 @@
     <!-- header end -->
 
 
+
     <!-- breadcrumb section start -->
-    <section style="height: 220px;" class="breadcrumb-section">
+    <!-- <section style="height: 220px;" class="breadcrumb-section">
         <img src="../assets/images/breadcrumb.jpg" class="img-fluid blur-up lazyload bg-img" alt="">
         <div class="animation-emoji">
             <ul class="circles">
@@ -178,12 +151,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- breadcrumb section end -->
 
 
     <!-- popular topics section start -->
-    <section class="section-pt-space section-pb-space popular-topics">
+    <section style="margin-top: 50px;" class="section-pt-space section-pb-space popular-topics">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -353,15 +326,17 @@
     <footer class="footer-t-space pb-0">
         <div class="container">
             <div class="row footer-sec footer-b-space">
-                <div class="col-lg-4 col-md-6">
-                    <div class="footer-title d-md-none d-block">
+                <div class="col-lg-6 col-md-6">
+                    <!-- <div class="footer-title d-md-none d-block">
                         <h4>about</h4>
-                    </div>
+                    </div> -->
                     <div class="footer-content">
-                        <div class="footer-logo"><img src="../assets/images/icon/logo-color.png" alt=""></div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, et dolore magna aliqua. Ut enim ad
-                            minim veniam, enim ad minim veniam, </p>
+                        <div class="footer-logo"><img src="../assets/images/icon/logo-color.png" alt=""
+                                style="height: 60px;"></div>
+                        <p style="text-align: justify;"> مرکز پژوهش های مجلس شورای اسلامی با هدف جلب مشارکت نخبگان سراسر
+                            کشور از طریق دریافت نقطه‌نظرات، ایده‌ها و طرح‌های آنان
+                            برای شناسایی نیازها و حل مسائل ملی در حوزه‌های مختلف، مبادرت به راه‌اندازی سامانه
+                            راهبردی‌-ارتباطی مدیران، اندیشمندان و نخبگان (سرآمدان) نموده است.</p>
                         <div class="footer-social">
                             <ul class="d-flex">
                                 <li style="padding-left: 20px;"><a href="#"><i class="fa fa-facebook"
@@ -380,66 +355,50 @@
                 </div>
                 <div class="col-lg-2 col-md-6">
                     <div class="footer-title">
-                        <h4 style="font-weight: bold;">اکانت من</h4>
+                        <h4 style="font-size: 18px; font-weight: bold;">پیوندها</h4>
                     </div>
-                    <div class="footer-content">
+                    <div style="font-size: 12px;" class="footer-content">
                         <ul>
-                            <li><a href="profile.html">جدول زمانی</a></li>
-                            <li><a href="profile-about.html">درباره</a></li>
-                            <li><a href="profile-friends.html">دوستان</a></li>
-                            <li><a href="profile-gallery.html">گالری</a></li>
-                            <li><a href="#">تنظیمات</a></li>
+                            <li><a href="#">دفتر مقام معظم رهبری</a></li>
+                            <li><a href="#">ریاست جمهوری</a></li>
+                            <li><a href="#">مجلس شورای اسلامی</a></li>
+                            <li><a href="#">مرکز پژوهش های مجلس</a></li>
+                            <li><a href="#">دفتر مطالعات مدیریت</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-4">
                     <div class="footer-title">
-                        <h4 style="font-weight: bold;">لینک ها</h4>
+                        <h4 style="font-size: 18px; font-weight: bold;">لینک های مهم</h4>
                     </div>
-                    <div class="footer-content">
+                    <div style="font-size: 12px;" class="footer-content">
                         <ul>
-                            <li><a href="#">تنظیمات</a></li>
-                            <li><a href="help-support.html">پشتیبانی</a></li>
-                            <li><a href="#">پیام رسان</a></li>
-                            <li><a href="favourite-page.html">صفحه ها</a></li>
-                            <li><a href="company-about.html">شرکت</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4">
-                    <div class="footer-title">
-                        <h4 style="font-weight: bold;">صفحه ها</h4>
-                    </div>
-                    <div class="footer-content">
-                        <ul>
-                            <li><a href="event.html">رویداد</a></li>
-                            <li><a href="birthday.html">تولد</a></li>
-                            <li><a href="weather.html">آب و هوا</a></li>
-                            <li><a href="music.html">آهنگ</a></li>
-                            <li><a href="register.html">ثبت نام</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-4">
-                    <div class="footer-title">
-                        <h4 style="font-weight: bold;">شرکت</h4>
-                    </div>
-                    <div class="footer-content">
-                        <ul>
+                            <li><a href="#">صفحه اصلی</a></li>
+                            <li><a href="#">اخبار</a></li>
+                            <li><a href="#">پرسش های متداول</a></li>
+                            <li><a href="#">تماس با ما</a></li>
                             <li><a href="#">درباره ما</a></li>
-                            <li><a href="#">وبلاگ</a></li>
-                            <li><a href="#">با ما در ارتباط باشیم</a></li>
-                            <li><a href="#">سوال های متداول</a></li>
-                            <li><a href="#">مشاغل</a></li>
                         </ul>
                     </div>
                 </div>
+                <div class="col-lg-2 col-md-4">
+                    <div class="footer-title">
+                        <h4 style="font-size: 18px; font-weight: bold;">راهنمایی و پشتیبانی</h4>
+                    </div>
+                    <div style="font-size: 12px;" class="footer-content">
+                        <ul>
+                            <li><a href="event.html">تماس با ما</a></li>
+                            <li><a href="birthday.html">پرسش های متداول</a></li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
             <div class="row">
                 <div class="col-12">
                     <div class="sub-footer">
-                        <p style="font-size: 15px;"> کلیه حقوق این وبسایت نزد مرکز پژوهش‌های مجلس شورای اسلامی محفوظ
-                            است.</p>
+                        <p style="font-size: 15px;">کلیه حقوق این وبسایت نزد مرکز پژوهش‌های مجلس شورای اسلامی محفوظ است.
+                        </p>
                     </div>
                 </div>
             </div>
